@@ -24,6 +24,4 @@ public class IncomeDTO {
     @NotNull(message = "Source cannot be null")
     private String source;
     private String description;
-
-
 }
