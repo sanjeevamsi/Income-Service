@@ -1,7 +1,9 @@
 name: Qodana
 on:
   workflow_dispatch:
-  pull_request: [master]
+  pull_request:
+    branches:
+      - master
   push:
     branches:
       - master
