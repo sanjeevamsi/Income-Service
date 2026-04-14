@@ -21,7 +21,7 @@ services:
     networks:
       - microservices-net
 
-  user-service:
+  income-service:
     build:
       context: .
       dockerfile: Dockerfile
